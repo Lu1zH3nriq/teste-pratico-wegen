@@ -1,0 +1,66 @@
+# .gitignore para projetos ASP.NET Core
+
+# Pastas de build
+bin/
+obj/
+
+# Arquivos de usuário e IDE
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Logs, pacotes e temporários
+*.log
+*.vspscc
+*.vssscc
+*.dbmdl
+*.pdb
+*.cache
+*.config
+*.pidb
+*.svclog
+*.sdf
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+
+# Pacotes NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Arquivos de publicação
+publish/
+
+# Configurações locais
+
+# Outros arquivos sensíveis
+secrets.json
+
+# Diretórios de dependências
+node_modules/
+
+# Docker
+Dockerfile*
+*.dockerignore
+
+# MacOS/Linux
+.DS_Store
+Thumbs.db
+
+# Backup
+*.bak
+*.old
+*.orig
+*.tmp
+
+# Arquivos gerados por ferramentas
+*.ide
+*.sln.ide
+
+# Ignore arquivos de ambiente
+.env
+.env.*
